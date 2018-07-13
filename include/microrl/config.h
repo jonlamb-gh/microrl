@@ -80,7 +80,10 @@ already initialize and ready to print message */
 
 /*
 New line symbol */
-#define _ENDL_LF
+/* #define _ENDL_LF */
+
+/* used for seL4's chardev configuration */
+#define _ENDL_CR
 
 #if defined(_ENDL_CR)
 #define ENDL "\r"
