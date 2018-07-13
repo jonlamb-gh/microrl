@@ -8,7 +8,7 @@ BUGS and TODO:
 #include <string.h>
 #include <ctype.h>
 #include <stdlib.h>
-#include "microrl.h"
+#include "microrl/microrl.h"
 #ifdef _USE_LIBC_STDIO
 #include <stdio.h>
 #endif
